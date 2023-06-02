@@ -16,28 +16,7 @@ body{
     padding: 0 20px; 
 }
 
-.logo {
-    display: flex;
-    align-items: center;
-}
 
-
-.logo-showel {
-    margin-left: 20px;
-    margin-right: 10px;
-}
-.logo-text {
-    margin-right: 10px;
-    font-size:x-large;
-
-    color: aliceblue;
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Rubik Puddles', cursive;
-}
-
-.logo-pic{
-    
-}
 
 .header {
     background-color: rgb(43, 134, 226);
