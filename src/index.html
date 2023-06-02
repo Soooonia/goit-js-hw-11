@@ -3,12 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
-    <link rel="stylesheet" href="./sass/index.scss" />
-    <script type="module" src="./index.js"></script>
+    <title>DIGforyourPIC</title>
+    <link rel="shortcut icon" href="./images/shovel.png" type="image/png">
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+    
+   <header class="header">
+    <div class="logo">
+      <img class="logo-shovel" src="./images/shovel.png" width="40" height="40" alt="shovel">
+      <span class="logo-text">FOR_YOUR</span>
+      <img class="logo-picture" src="./images/picture.png" width="40" height="40" alt="picture">
+    </div>
+    <form class="search-form" id="search-form">
+      <div class="form-wrapper">
+        <input
+          type="text"
+          name="searchQuery"
+          autocomplete="off"
+          placeholder="Search images..."
+          autofocus
+        />
+        <button type="submit"> <img src="./images/glass.svg" width="20px" height="20px" alt=""></button>
+      </div>
+    </form>
+ </header>
+   <section class="main-section">
+     <div class="container">
+       <div class="gallery">
+       </div>
+     </div>
+   </section>
+   <div class="anchor"></div>
+   <script type="module" src="./index.js"></script>
   </body>
 </html>
